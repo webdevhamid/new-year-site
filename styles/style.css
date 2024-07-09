@@ -25,6 +25,9 @@ section {
 img {
   width: 100%;
 }
+button {
+  cursor: pointer;
+}
 /* Banner Styles  */
 .banner-container {
   max-width: 1320px;
@@ -97,4 +100,47 @@ img {
   line-height: 58px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+/* Midnight Styles  */
+
+.midnight {
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../assets/images/Vectorrr.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border-radius: 16px;
+}
+.midnight-content {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  width: 697px;
+}
+.midnight-content h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+}
+.midnight-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin: 15px 0;
+}
+.midnight-content button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+  color: rgb(255, 255, 255);
 }
