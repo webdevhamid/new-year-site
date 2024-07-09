@@ -1,5 +1,100 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  outline: 0;
+  text-decoration: none;
+}
 body {
   font-family: "Merriweather", serif;
+}
+
+/* Shared Styles  */
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+section {
+  padding: 80px 0;
+}
+img {
+  width: 100%;
+}
+/* Banner Styles  */
+.banner-container {
+  max-width: 1320px;
+  min-height: 600px;
+  margin: 50px auto 0;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("../assets/images/Banner-image.png") no-repeat center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  text-align: center;
+  height: 600px;
+  color: rgb(255, 255, 255);
+}
+.banner-content p {
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.banner-content h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+
+/* Discount Styles  */
+
+.discount-content {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.discount-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount-content p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.discount-content h3 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+  text-align: center;
 }
